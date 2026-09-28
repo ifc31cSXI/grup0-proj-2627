@@ -18,7 +18,7 @@
 
 ## Introducció
 
-Introducción
+Introducció
 
 ## Capacitat i característiques físiques del maquinari
 
