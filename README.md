@@ -12,6 +12,7 @@ La documentació es farà utilitzant MarkDown i perquè la documentació sigui l
 ## Contingut del projecte
 En aquest repositori trobarem una carpeta per cada servei en concret:
 
+* [Configuració Xarxa](CXarxa/README.md)
 * [RA1 servei DNS](RA1DNS/README.md)
 * [RA2 servei DHCP](RA2DHCP/README.md)
 * [RA3 servei web](RA3Web/README.md)
