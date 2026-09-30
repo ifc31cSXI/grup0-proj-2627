@@ -1,8 +1,8 @@
-# Adreçament Xarxa Grup X
+# Adreçament Xarxa Grup 0
 
 ## Continguts
 
-- [Adreçament Xarxa Grup X](#adreçament-xarxa-grup-x)
+- [Adreçament Xarxa Grup 0](#adreçament-xarxa-grup-0)
   - [Continguts](#continguts)
   - [Introducció](#introducció)
   - [Adraces IP de la Xarxa Grup X](#adraces-ip-de-la-xarxa-grup-x)
@@ -12,23 +12,28 @@
 
 ## Introducció
 
-En aquesta pàgina s'enllaçarà tota la documentació referida a ...
+Es detalla l'organització dels departaments de l'empresa Hospital Binissalem els quals ens servirà per definir les diferents subxarxes que definiran l'empresa ...
 
-L'organigrama ...:
+L'Hospital té el següent organigrama
 
--   ???
--   ???
--   ...
+- Gerència
+- RRHH i administració
+- Urgències
+- Ambulatori
+- Quiròfans
+- Laboratori clínic
+- Farmàcia
+- RX i ecografies
 
 ## Adraces IP de la Xarxa Grup X
 
 Aquestes són les adreces IPs que es tindran en compte a l'hora de configurar la xarxa.
 
-Les adreces de la xarxa DMZ són 192.168.???.???/??
+Les adreces de la xarxa DMZ son 192.168.158.224/27
 
-Les adreces de la xarxa privada són ???.???.???.???/??
+Les adreces de la xarxa privada son 10.18.158.0/23
 
-Es important a l’hora de assignar les subxarxes tenir en compte que les VLANS del grup 0 es troben dins el rang: 3600-3640
+Es important a l’hora d'assignar les subxarxes tenir en compte que les VLANS del grup 0 es troben dins el rang: 3600-3640.
 
 ### Departament/Subxarxes
 
