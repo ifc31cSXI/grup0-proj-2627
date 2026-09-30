@@ -67,34 +67,16 @@ Es defineix el port que seran TAGGED i UTAGGED i quines VLANs seran etiquetades 
 
 ```
 /interface bridge vlan
-add bridge=bridge tagged=
-bridge,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether9,ether10 vlan-ids=3596
-add bridge=bridge tagged=
-bridge,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether9,ether10
-vlan-ids=3580
-add bridge=bridge tagged=
-bridge,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether9,ether10 
-vlan-ids=3528
-add bridge=bridge tagged=
-bridge,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether9,ether10 
-vlan-ids=3500
-add bridge=bridge tagged=
-bridge,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether9,ether10 
-vlan-ids=3564
-add bridge=bridge tagged=
-bridge,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether9,ether10 
-vlan-ids=3532
-add bridge=bridge tagged=
-bridge,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether9,ether10 
-vlan-ids=3592
-add bridge=bridge tagged=
-bridge,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether9,ether10 
-vlan-ids=3501
-add bridge=bridge tagged=
-bridge,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether9,ether10 
-vlan-ids=3548
-add bridge=bridge tagged=
-bridge,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether9,ether10 
+add bridge=bridge tagged=bridge,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether9,ether10 vlan-ids=3596
+add bridge=bridge tagged=bridge,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether9,ether10 vlan-ids=3580
+add bridge=bridge tagged=bridge,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether9,ether10 vlan-ids=3528
+add bridge=bridge tagged=bridge,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether9,ether10 vlan-ids=3500
+add bridge=bridge tagged=bridge,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether9,ether10 vlan-ids=3564
+add bridge=bridge tagged=bridge,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether9,ether10 vlan-ids=3532
+add bridge=bridge tagged=bridge,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether9,ether10 vlan-ids=3592
+add bridge=bridge tagged=bridge,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether9,ether10 vlan-ids=3501
+add bridge=bridge tagged=bridge,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether9,ether10 vlan-ids=3548
+add bridge=bridge tagged=bridge,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether9,ether10 vlan-ids=3499
 ```
 
 # Gestió d'adreces IPs
