@@ -74,4 +74,5 @@ Aquestes son les adreces IP del router mikrotik de la xarxa del grup 0.
 | ether11        | 10.18.159.65/27    | 3608      | Xarxa d’administració |
 
 ## Documents
-[<Documentació S3MK6.38-0004-Central](Documentació%20S3MK6.38-0004-Central.md)
+[Documentació S3MK6.38-0004-Central](Documentació%20S3MK6.38-0004-Central.md)
+[Documentació rv-mk-716-grup0.md](Documentació%20rv-mk-716-grup0.md)
