@@ -28,7 +28,7 @@ Aquest és la configuració per al mikrotik virtualitzat que servirà per donar 
 
 mikrotik 7.16
 
-usuari/contrasenya: admin/CalaMurta
+usuari/contrasenya: admin/12345678
 
 adreça IP: 192.168.1
 

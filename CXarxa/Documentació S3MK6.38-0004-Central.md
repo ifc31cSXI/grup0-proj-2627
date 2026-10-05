@@ -92,10 +92,5 @@ add address=192.168.158.225/27 interface=ether1 network=192.168.158.224
 ```
 /ip route
 add distance=1 gateway=192.168.250.1
-add distance=1 dst-address=192.168.128.0/24 gateway=192.168.2.28
-add distance=1 dst-address=192.168.129.0/24 gateway=192.168.2.29
-add distance=1 dst-address=192.168.130.0/24 gateway=192.168.2.30
-add distance=1 dst-address=192.168.131.0/24 gateway=192.168.2.31
-add distance=1 dst-address=192.168.132.0/24 gateway=192.168.2.32
 ```
 
