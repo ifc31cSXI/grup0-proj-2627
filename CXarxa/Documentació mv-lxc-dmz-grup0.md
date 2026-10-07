@@ -8,9 +8,11 @@ El contenidor LXC es crearà a partir de la plantilla ubuntu 26.04. I s'ha d'afe
 ## Creació contenidor lxcDMZ
 Al proxmox crear un contenidor pitjar `Create CT`.
 * Assignar el nom corresponent i assignar el pool (IMPORTANT!!!)
+ 
   <img src="Imatges/lxcDMZ-create.png" alt="Creacio lxcDMZ" width="300"></p>
 
 * Configurar la VLAN de la DMZ i la configuració de xarxa correctament
+  
   <img src="Imatges/lxcDMZ-network.png" alt="Creacio lxcDMZ" width="300"></p>
 
 * Comprovar el funcionament
