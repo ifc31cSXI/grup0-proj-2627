@@ -34,7 +34,7 @@ adreça IP: 192.168.1
 
 ## Configuració de les interfícies virtuals al proxmox
 
-<img src="media/image3.png" style="width:5.07813in;height:2.46337in" />
+<img src="Imatges/rv-mk-inferficies-proxmox.png" alt="Configuració de les interfícies virtuals al proxmox" width="300" align="center">
 
 ## Configuració de les IPs
 ```
