@@ -16,5 +16,5 @@ Al proxmox crear un contenidor pitjar `Create CT`.
   <img src="Imatges/lxcDMZ-network.png" width="300"></p>
 
 * Comprovar el funcionament
-  
+
   <img src="Imatges/lxcDMZ-test.png" width="300"></p>

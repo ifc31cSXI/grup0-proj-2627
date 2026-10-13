@@ -19,6 +19,9 @@
       - [Marca els paquets segons la xarxa](#marca-els-paquets-segons-la-xarxa-1)
       - [Configurar el NAT](#configurar-el-nat-1)
       - [Configurar taula d’encaminament](#configurar-taula-dencaminament-1)
+    - [OPCIO 3](#opcio-3)
+      - [Configurar el NAT](#configurar-el-nat-2)
+      - [Desabilitar la interficie ether2](#desabilitar-la-interficie-ether2)
   - [References](#references)
 
 
@@ -184,6 +187,19 @@ suppress-hw-offload=no target-scope=10
 add disabled=no dst-address=10.18.159.48/28 gateway=ether11 routing-table=\
 rXAdministracio scope=10 suppress-hw-offload=no
 ```
+### OPCIO 3
+#### Configurar el NAT
+
+```
+/ip firewall nat
+add action=masquerade chain=srcnat out-interface=ether1
+```
+
+#### Desabilitar la interficie ether2
+```
+/interface ethernet disable ether2
+```
+
 
 ## References
 
