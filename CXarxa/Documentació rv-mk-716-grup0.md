@@ -166,6 +166,7 @@ new-routing-mark=rXAdministracio passthrough=yes
 ```
 
 #### Configurar el NAT
+Defineix el NAT d'origen per a les dues interfícies de la DMZ ether1 i ether2.
 
 ```
 /ip firewall nat
