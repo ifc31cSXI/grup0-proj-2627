@@ -196,6 +196,7 @@ add action=masquerade chain=srcnat out-interface=ether1
 ```
 
 #### Desabilitar la interficie ether2
+És important deshabilitar per assegurar que tot el tràfic de la DMZ surt per ether1
 ```
 /interface ethernet disable ether2
 ```
