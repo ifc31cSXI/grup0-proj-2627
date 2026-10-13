@@ -124,6 +124,7 @@ new-routing-mark=rNATether1 passthrough=yes</p></td></tr></tbody></table>
 ```
 
 #### Configurar el NAT
+Defineix el NAT d'origen per a les dues interfícies de la DMZ ether1 i ether2.
 
 ```
 /ip firewall nat
