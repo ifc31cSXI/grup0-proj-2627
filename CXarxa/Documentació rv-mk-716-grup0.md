@@ -188,6 +188,8 @@ add disabled=no dst-address=10.18.159.48/28 gateway=ether11 routing-table=\
 rXAdministracio scope=10 suppress-hw-offload=no
 ```
 ### OPCIO 3
+Aquesta és l'opcio més senzilla i recomanble
+
 #### Configurar el NAT
 
 ```
