@@ -188,9 +188,10 @@ add disabled=no dst-address=10.18.159.48/28 gateway=ether11 routing-table=\
 rXAdministracio scope=10 suppress-hw-offload=no
 ```
 ### OPCIO 3
-Aquesta és l'opcio més senzilla i recomanble
+Aquesta és l'opció més senzilla i recomanable.
 
 #### Configurar el NAT
+És fa el NAT de sortida per la ether1.
 
 ```
 /ip firewall nat
@@ -198,7 +199,7 @@ add action=masquerade chain=srcnat out-interface=ether1
 ```
 
 #### Desabilitar la interficie ether2
-És important deshabilitar per assegurar que tot el tràfic de la DMZ surt per ether1
+És important deshabilitar per assegurar que tot el tràfic de la DMZ surt per ether1.
 ```
 /interface ethernet disable ether2
 ```
