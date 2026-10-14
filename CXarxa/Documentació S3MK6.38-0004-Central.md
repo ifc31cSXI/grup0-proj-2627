@@ -63,7 +63,7 @@ add interface=bridge name=v3499DMZG0 vlan-id=3499
 
 ## Definició dels ports
 
-Es defineix el port que seran TAGGED i UTAGGED i quines VLANs seran etiquetades per cada un dels ports. Aleshores s'indica quines són els ports que seran troncals o TAGGED en concret són: ether1, ehter2, ether3, ether4 …
+Es defineix el port que seran TAGGED i UTAGGED i quines VLANs seran etiquetades per cada un dels ports. Aleshores s'indica quins són els ports que seran troncals o TAGGED en concret són: ether1, ehter2, ether3, ether4 …
 
 ```
 /interface bridge vlan
