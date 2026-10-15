@@ -32,16 +32,16 @@ La gestió de les VLANS es farà segons el port del switch, ja que d'aquesta for
 
 | **Departament/Subxarxa** | **Adreça Xarxa**   | **VLANs** | **Ports Switch**                   |
 |--------------------------|--------------------|-----------|------------------------------------|
-| Gerencia                 | 10.18.159.96/29    | 3596      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
-| RRHH i administració     | 10.18.159.80/28    | 3580      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
-| Urgències                | 10.18.158.128/26   | 3528      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
-| Ambulatori               | 10.18.158.0/26     | 3500      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
-| Quiròfans                | 10.18.158.64/26    | 3564      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
-| Laboratori clínic        | 10.18.159.32/28    | 3532      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
-| RX i ecografies          | 10.18.158.192/27   | 3592      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
-| Intranet                 | 10.18.159.0/27     | 3501      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
-| Xarxa d’administració    | 10.18.159.48/28    | 3548      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
-| DMZ                      | 192.168.158.224/27 | 3499      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
+| Gerencia                 | 10.18.159.96/29    | 3600      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
+| RRHH i administració     | 10.18.159.80/28    | 3601      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
+| Urgències                | 10.18.158.128/26   | 3602      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
+| Ambulatori               | 10.18.158.0/26     | 3603      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
+| Quiròfans                | 10.18.158.64/26    | 3604      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
+| Laboratori clínic        | 10.18.159.32/28    | 3605      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
+| RX i ecografies          | 10.18.158.192/27   | 3606      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
+| Intranet                 | 10.18.159.0/27     | 3607      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
+| Xarxa d’administració    | 10.18.159.48/28    | 3608      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
+| DMZ                      | 192.168.158.224/27 | 3609      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
 
 ## Definició de les interficies VLANs
 
@@ -49,16 +49,16 @@ Aquestes instruccions permeten definir les vlans.
 
 ``` 
 /interface vlan
-add interface=bridge name=v3596GerenciaG0 vlan-id=3596
-add interface=bridge name=v3580RRHHG0 vlan-id=3580
-add interface=bridge name=v3528UrgenciesG0 vlan-id=3528
-add interface=bridge name=v3500AmbulatoriG0 vlan-id=3500
-add interface=bridge name=v3564QuirofansG0 vlan-id=3564
-add interface=bridge name=v3532LaboratoriG0 vlan-id=3532
-add interface=bridge name=v3592RXG0 vlan-id=3592
-add interface=bridge name=v3501IntranetG0 vlan-id=3501
-add interface=bridge name=v3548AdmG0 vlan-id=3548
-add interface=bridge name=v3499DMZG0 vlan-id=3499
+add interface=bridge name=v3600GerenciaG0 vlan-id=3596
+add interface=bridge name=v3601RRHHG0 vlan-id=3580
+add interface=bridge name=v3602UrgenciesG0 vlan-id=3528
+add interface=bridge name=v3603AmbulatoriG0 vlan-id=3500
+add interface=bridge name=v3604QuirofansG0 vlan-id=3564
+add interface=bridge name=v3605LaboratoriG0 vlan-id=3532
+add interface=bridge name=v3606RXG0 vlan-id=3592
+add interface=bridge name=v3607IntranetG0 vlan-id=3501
+add interface=bridge name=v3608AdmG0 vlan-id=3548
+add interface=bridge name=v3609DMZG0 vlan-id=3499
 ```
 
 ## Definició dels ports

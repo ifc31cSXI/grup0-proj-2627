@@ -1,8 +1,8 @@
-# Server1 servei DHCP
+# sv-kea-DHCP-SERVER-01 servei DHCP
 
 ## Continguts
 
-- [Server1 servei DHCP](#server1-servei-dhcp)
+- [sv-kea-DHCP-SERVER-01 servei DHCP](#sv-kea-dhcp-server-01-servei-dhcp)
   - [Continguts](#continguts)
   - [Introducció](#introducció)
   - [Capacitat i característiques físiques del maquinari](#capacitat-i-característiques-físiques-del-maquinari)
@@ -18,7 +18,9 @@
 
 ## Introducció
 
-Introducció
+Al contenidor lxc *sv-kea-DHCP-SERVER-01* hi haurà la configuració del servei DHCP per a les tres subxarxes *Gestió infraestructura*, *Quiròfans* i *Ambulatori*.
+
+Aquest contenidor es deplegara a partir d'un template d'ubuntu 26.04 al qual s'instal·laran els serveis de DHCP utilitzant el paquet de isc-kea
 
 ## Capacitat i característiques físiques del maquinari
 
@@ -30,7 +32,12 @@ Definició
 
 ## Guia d’instal·lació
 
-Instal·lació
+Primer de tot s'ha de actualitzar el sistema i instalar els paquets necessaris:
+```
+apt update
+apt upgrade
+apt install kea
+```
 
 ## Guia de configuració
 
