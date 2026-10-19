@@ -40,7 +40,7 @@ La gestió de les VLANS es farà segons el port del switch, ja que d'aquesta for
 | Laboratori clínic        | 10.18.159.32/28    | 3605      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
 | RX i ecografies          | 10.18.158.192/27   | 3606      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
 | Intranet                 | 10.18.159.0/27     | 3607      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
-| Xarxa d’administració    | 10.18.159.48/28    | 3608      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
+| Gestió d'infraestructura | 10.18.159.48/28    | 3608      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
 | DMZ                      | 192.168.158.224/27 | 3609      | 1T, 2T, 3T, 4T, 5T,6T,7T,8T,9T,10T |
 
 ## Definició de les interficies VLANs

@@ -10,9 +10,9 @@ Les següents subxarxes tindran servei d'adreçament dinàmic amb DHCP pels serv
 * *VLAN:* 3608
 * *Porta d'enllaç*: 10.18.159.65
 * *Adreça difusió*: 10.18.159.95
-* *Rang d'adreces IPs fixes*: 10.18.159.65 - 10.18.159.69
-* *Rang d'adreces IPs automàtiques*: 10.18.159.70 - 10.18.158.79
-* *Rang d'adreces IPs dinàmiques*: 10.18.159.80 - 10.18.159.93
+* *Rang d'adreces IPs fixes*: 10.18.159.65 - 10.18.159.69 (Temps de vida 15 dies)
+* *Rang d'adreces IPs automàtiques*: 10.18.159.70 - 10.18.159.79 (Temps de vida infinit)
+* *Rang d'adreces IPs dinàmiques*: 10.18.159.80 - 10.18.159.93 (Temps de vida 5 hores)
 * *Servei DHCP*: Servidor Linux amb isc-kea
 * *Adreça IP servidor DHCP*: 10.18.159.66
 * *Adreces IPs servidors DNS*: 8.8.8.8, 8.8.4.4
