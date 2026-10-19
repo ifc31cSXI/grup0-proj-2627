@@ -66,17 +66,17 @@ add gateway=192.168.158.225
 
 Aquesta taula reflexa la configuració del NAT, d’aquesta forma només la Xarxa Administració surt per la interfície ether2 amb la IP 192.168.158.227.
 
-| **Subxarxa**          | **Adreça de xarxa** | **interficie/NAT** | **Adreça IP/NAT** |
-|-----------------------|---------------------|--------------------|-------------------|
-| Gerencia              | 10.18.159.96/29     | ether1             | 192.168.158.226   |
-| RRHH i administració  | 10.18.159.80/28     | ether1             | 192.168.158.226   |
-| Urgències             | 10.18.158.128/26    | ether1             | 192.168.158.226   |
-| Ambulatori            | 10.18.158.0/26      | ether1             | 192.168.158.226   |
-| Quiròfans             | 10.18.158.64/26     | ether1             | 192.168.158.226   |
-| Laboratori clínic     | 10.18.159.32/28     | ether1             | 192.168.158.226   |
-| RX i ecografies       | 10.18.158.192/27    | ether1             | 192.168.158.226   |
-| Intranet              | 10.18.159.0/27      | ether1             | 192.168.158.226   |
-| Xarxa d’administració | 10.18.159.48/28     | ether2             | 192.168.158.227   |
+| **Subxarxa**             | **Adreça de xarxa** | **interficie/NAT** | **Adreça IP/NAT** |
+|--------------------------|---------------------|--------------------|-------------------|
+| Gerencia                 | 10.18.159.96/29     | ether1             | 192.168.158.226   |
+| RRHH i administració     | 10.18.159.80/28     | ether1             | 192.168.158.226   |
+| Urgències                | 10.18.158.128/26    | ether1             | 192.168.158.226   |
+| Ambulatori               | 10.18.158.0/26      | ether1             | 192.168.158.226   |
+| Quiròfans                | 10.18.158.64/26     | ether1             | 192.168.158.226   |
+| Laboratori clínic        | 10.18.159.32/28     | ether1             | 192.168.158.226   |
+| RX i ecografies          | 10.18.158.192/27    | ether1             | 192.168.158.226   |
+| Intranet                 | 10.18.159.0/27      | ether1             | 192.168.158.226   |
+| Gestió d'infraestructura | 10.18.159.48/28     | ether2             | 192.168.158.227   |
 
 Perquè l’encaminador faci el NAT així com s’ha definit, en primer lloc s’ha de definir per quines interfícies de xarxa ha de sortir cada subxarxa. Per això primer s’han d'identificar els paquets segons la xarxa d’origen, una vegada fet això s’han de configurar quina serà la taula d’encaminament per cada subxarxa i finalment crear una taula d’encaminament que indiqui quina serà la interfície de sortida per cada sub
 
