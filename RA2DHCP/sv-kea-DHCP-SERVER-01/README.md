@@ -68,6 +68,8 @@ systemctl restart kea-dhcp4-server
 systemctl status kea-dhcp4-server
 # Veure els logs del servei
 journalctl -xeu kea-dhcp4-server
+# Veure els logs del servei de forma interactiva
+journalctl -xfu isc-dhcp-server 
 ```
 
 Una vegada comprovat que la instal·lació és correcte es pot procedir a fer la configuració per cada una de les subxarxes
