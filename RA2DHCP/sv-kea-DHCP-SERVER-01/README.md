@@ -8,6 +8,7 @@
   - [Capacitat i característiques físiques del maquinari](#capacitat-i-característiques-físiques-del-maquinari)
   - [Definició de requisits](#definició-de-requisits)
   - [Guia d’instal·lació](#guia-dinstallació)
+    - [Comprovació de sintaxi (Recomanat)](#comprovació-de-sintaxi-recomanat)
   - [Guia de configuració del servei DHCP per a la subxarxa de *Gestió d'infraestructura*. Passa 2](#guia-de-configuració-del-servei-dhcp-per-a-la-subxarxa-de-gestió-dinfraestructura-passa-2)
   - [Manteniments necessaris](#manteniments-necessaris)
   - [Manuals d’utilització del sistema](#manuals-dutilització-del-sistema)
@@ -47,6 +48,16 @@ apt upgrade
 apt install kea
 ```
 
+### Comprovació de sintaxi (Recomanat)
+Executa la següent comanda al terminal indicant la ruta del fitxer de configuració:
+
+```
+sudo kea-dhcp4 -t /etc/kea/kea-dhcp4.conf
+```
+
+Si la configuració és correcta, la comanda finalitzarà sense mostrar cap error greu (o indicarà que la configuració s'ha validat amb èxit).
+
+Si hi ha un error de sintaxi (per exemple, una coma o un clau JSON que falta), el terminal mostrarà la línia exacta i el motiu de la fallada.
 Dels serveis i paquets que s'han instal·lat amb **isc-kea** només utilitzarem els que s'encarreguen del servei DHCP IPv4.
 
 Al final podem comprovar i reiniciar el servei amb les següents instruccions:
