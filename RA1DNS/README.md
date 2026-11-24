@@ -7,7 +7,9 @@ Disseny dels serveis DNS.
 Els dos noms de domini de l’empresa son:
 
 hospitalbinissalem.com
+
 quirofans.com 
+
 urgencies.com
 
 El servei DNS està gestionat per dos servidors:

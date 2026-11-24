@@ -47,7 +47,7 @@ Els serveis de DHCP està implementat a partir de contenidors LXC aquests conten
 Els contenidors LXC es desplegaran a partir d'una imatge d'Ubuntu 26.04 i el servei que s’instal·larà seran el de isc-kea.
 
 ### Servidors
-Els serveis DHCP estarà format per tres dockers:
+Els serveis DHCP estarà format per tres servidors, seguint els següents enllaços podem accedir a la documentació de cada servidor:
 * [sv-kea-DHCP-SERVER-01](sv-kea-DHCP-SERVER-01/README.md)
 * sv-kea-DHCP-RELAY-01
 * sv-kea-DHCP-RELAY-02
